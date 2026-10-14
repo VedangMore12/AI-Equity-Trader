@@ -1,0 +1,11 @@
+# using this file you can run the whole project with a single command: docker-compose up
+# (already created image is used if available, otherwise it will be built)
+
+services:
+  app:
+    build: .
+    image: ai-equity-trader
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env

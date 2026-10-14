@@ -1,0 +1,10 @@
+agents==1.4.0
+gradio==6.30.0
+mcp==2.3.0
+openai==3.31.0
+pandas==3.0.6
+plotly==6.4.0
+polygon==1.2.8
+pydantic==2.14.1
+python-dotenv==1.2.4
+Requests==2.34.2
